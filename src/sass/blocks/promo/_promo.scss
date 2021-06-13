@@ -1,0 +1,117 @@
+.promo {
+  background: url("../img/bg/main-screen__bg.jpg") center (center / cover) no-repeat;
+  min-height: 960px;
+  padding: 270px 0 0;
+  position: relative;
+  &__title {
+    //margin-top: 270px;
+    font-size: 64px;
+    line-height: 140%;
+    font-weight: 700;
+    max-width: 920px;
+    text-align: left;
+  }
+  &__timer {
+    margin-top: 40px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 530px;
+  }
+  &__time {
+    background: #121212;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 112px;
+    width: 102px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 140%;
+    span {
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 140%;
+      opacity: 0.4;
+    }
+  }
+  &__footer {
+    position: absolute;
+    bottom: 0;
+    background: #121212;
+    width: 100%;
+    min-height: 130px;
+    left: 0;
+    display: grid;
+    grid-template: auto / 170px 251px 590px;
+    column-gap: 81px;
+    align-content: center;
+    justify-content: center;
+  }
+  &__btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 44px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height:  42px;
+    color: #fff;
+    background: linear-gradient(94.78deg, #DF5950 11.19%, #451046 93.72%);
+    border-radius: 50px;
+  }
+  &__info {
+    color: #FFFFFF;
+    font-size: 16px;
+    line-height: 150%;
+    font-weight: 700;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    span {
+      opacity: 0.4;
+    }
+  }
+  &__money {
+    .promo__info {
+      width: 280px;
+    }
+
+  }
+  &__line {
+    margin-top: 5px;
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    span {
+      position: absolute;
+      height: 6px;
+      background: #fff;
+      width: 100%;
+      border-radius: 50px;
+      &:first-child {
+        background: linear-gradient(94.78deg, #DF5950 11.19%, #451046 93.72%);
+        width: 55%;
+        z-index: 1;
+      }
+    }
+  }
+  &__underline {
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    span {
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 150%;
+      color: #FFFFFF;
+      opacity: 0.4;
+    }
+  }
+}
