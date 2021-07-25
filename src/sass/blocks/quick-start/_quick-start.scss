@@ -1,0 +1,11 @@
+.quick-start {
+  min-height: 552px;
+  &__text {
+    margin-top: 50px;
+    color: #fff;
+    opacity: 0.5;
+    max-width: 411px;
+    font-size: 16px;
+    line-height: 160%;
+  }
+}

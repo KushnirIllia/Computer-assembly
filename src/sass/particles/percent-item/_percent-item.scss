@@ -1,0 +1,44 @@
+.percent-item {
+  display: grid;
+  grid-template: 50px 80px 108px / 284px;
+  row-gap: 15px;
+  &__wrapper {
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  &:nth-child(2) {
+    .percent-item__line {
+      height: 60px;
+    }
+  }
+  &:nth-child(3) {
+    .percent-item__line {
+      height: 40px;
+    }
+  }
+  &:nth-child(4) {
+    .percent-item__line {
+      height: 20px;
+    }
+  }
+  &__percent {
+    font-size: 36px;
+    line-height: 140%;
+    font-weight: 700;
+    color: #fff;
+  }
+  &__line {
+    background: $main-bg;
+    margin: auto 0;
+    height: 80px;
+  }
+  &__info {
+    color: #fff;
+    opacity: 0.5;
+    font-size: 14px;
+    line-height: 160%;
+    padding: 0 5px;
+  }
+}

@@ -1,0 +1,50 @@
+@media (max-width: 992px) {
+  .title {
+    &_fz48 {
+      font-size: 41px;
+    }
+
+    &_section {
+      &::before {
+        width: 60px;
+        height: 60px;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .title {
+    &_fz48 {
+      font-size: 35px;
+    }
+
+    &_section {
+      font-size: 33px;
+      margin-left: unset;
+      &::before {
+        left: 60px;
+        width: 55px;
+        height: 55px;
+      }
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  .title {
+    &_fz48 {
+      font-size: 30px;
+      line-height: 115%;
+    }
+    &_section {
+      font-size: 25px;
+      margin-left: 50px;
+      &::before {
+        left: -39px;
+        width: 45px;
+        height: 45px;
+      }
+    }
+  }
+}

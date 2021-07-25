@@ -10,6 +10,9 @@
     background: #fff;
     height: 60px;
     padding: 10px 60px;
+    .nav__link {
+      color: #000;
+    }
   }
   &__wrapper {
     display: grid;

@@ -8,4 +8,20 @@
     font-size: 48px;
     line-height: 140%;
   }
+  &_section {
+    position: relative;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 140%;
+    color: #FFFFFF;
+    margin-left: 101px;
+    &::before {
+      position: absolute;
+      content: '';
+      background: url("../icons/ellipse(stroke).svg") center (center / cover) no-repeat;
+      width: 80px ;
+      height: 80px;
+      left: -100px ;
+    }
+  }
 }

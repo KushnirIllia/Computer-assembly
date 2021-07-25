@@ -27,14 +27,14 @@
     align-items: center;
     height: 112px;
     width: 102px;
-    font-weight: 700;
-    font-size: 36px;
+    font-size: 16px;
+    font-weight: 400;
     line-height: 140%;
+    opacity: 0.4;
     span {
-      font-size: 16px;
-      font-weight: 400;
+      font-weight: 700;
+      font-size: 36px;
       line-height: 140%;
-      opacity: 0.4;
     }
   }
   &__footer {

@@ -1,0 +1,23 @@
+@media (max-width: 992px) {
+  .quick-start__text {
+    margin-top: 40px;
+  }
+}
+@media (max-width: 768px) {
+  .quick-start {
+    text-align: center;
+    &__text {
+      margin: 30px auto 0 auto;
+    }
+  }
+}
+@media (max-width: 576px) {
+  .quick-start {
+    padding-bottom: 30px;
+    text-align: center;
+    &__text {
+      margin: 30px auto 0 auto;
+      font-size: 14px;
+    }
+  }
+}

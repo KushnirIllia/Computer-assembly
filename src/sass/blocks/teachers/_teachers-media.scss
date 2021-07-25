@@ -1,0 +1,88 @@
+@media (max-width: 1200px) {
+  .teachers {
+    &__img {
+      width: 180px;
+      height: 180px;
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  .teachers {
+    padding-bottom: 120px;
+    &__wrapper {
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    &__item {
+      margin: 14px;
+    }
+
+    &__img {
+      width: 174px;
+      height: 174px;
+    }
+
+    &__title {
+      font-size: 22px;
+      line-height: 100%;
+      margin-top: 25px;
+    }
+
+    &__subtitle {
+      margin-top: 10px;
+    }
+
+    &__btn {
+      margin: 20px auto 0 auto;
+      width: 135px;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .teachers {
+    padding-bottom: 100px;
+
+    &__main-title {
+      margin-left: 14%;
+
+      &::before {
+        left: -72px;
+      }
+    }
+
+    &__wrapper {
+      margin-top: 30px;
+    }
+
+    &__title {
+      font-size: 21px;
+    }
+
+    &__subtitle {
+      font-size: 15px;
+    }
+
+    &__img {
+      width: 150px;
+      height: 150px;
+    }
+
+    &__btn {
+      width: 125px;
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  .teachers {
+    padding-bottom: 80px;
+    &__main-title {
+      margin-left: 30%;
+    }
+  }
+}
+
+//margin-left: 14%;
